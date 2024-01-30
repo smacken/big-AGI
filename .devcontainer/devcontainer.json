@@ -2,6 +2,7 @@
     "name": "Big Agi UI",
     "dockerComposeFile": ["../docker-compose.yml"],
     "service": "big-agi",
+    "workspaceFolder": "/src",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -28,7 +29,5 @@
     },
     "postCreateCommand": "npm install",
     "postAttachCommand": "npm run dev",
-    "appPort": 3000,
-    "shutdownAction": "stopCompose",
-    "workspaceMount": "source=${localWorkspaceFolder}/../,target=/workspace,type=bind,consistency=cached"
+    "shutdownAction": "stopCompose"
 }

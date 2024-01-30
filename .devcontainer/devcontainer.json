@@ -1,6 +1,6 @@
 {
     "name": "Big Agi UI",
-    "dockerComposeFile": ["docker-compose.yml"],
+    "dockerComposeFile": ["../docker-compose.yml"],
     "service": "big-agi",
     "workspaceFolder": "/",
     "customizations": {
